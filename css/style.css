@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+forrelative
 li {
   list-style-type: none;
 }
@@ -83,21 +84,7 @@ body {
   position: relative;
 }
 
-.changeloc {
-  width: 90%;
-  margin: 0 auto 0;
-  padding: 10px;
-  background: none;
-  border: none;
-  color: white;
-  cursor: pointer;
-  border: 1px solid white;
-  transition: 0.5s;;
- }
 
- .changeloc:hover {
-  opacity: 0.5;
- }
 
 #subbuticon {
   content: '';
@@ -275,39 +262,9 @@ body {
   cursor: pointer;
 }
 
-#selectloc {
-  position: absolute;
-  height: 0;
-  overflow-x: scroll;
-  background-color: rgba(0, 0, 0, 0.879);
-  padding: 20px;
-  bottom: -100%;
-  transform: translate(-50%, -25%);
-  box-shadow: 0px 0px 8px #ffffff2e;
-  transition: 1.2s;
-}
 
-#selectloc ul {
-  display: flex;
-  flex-wrap: wrap;
-}
 
-#selectloc li {
-  width: 50%;
-  color: white;
-  padding: 15px;
-}
 
-#forrelative {
-  position: relative;
-}
-
-#forrelative span {
-  color: rgba(255, 255, 255, 0.32);
-  font-weight: bolder;
-  position: absolute;
-  right: 0;
-}
 
 
   @media (width < 1000px) {
@@ -350,13 +307,9 @@ body {
      display: none;
     }
    
-    .changeloc {
-     margin-top: 20px;
-    }
    
-    #selectloc {
-     width: 80% !important;
-    }
+   
+
    
     #box1 {
      height: 300px;
